@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/recipesFragment">
+
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="hs.project.foodie.presentation.view.RecipesFragment"
+        android:label="레시피"
+        tools:layout="@layout/fragment_recipes" />
+    <fragment
+        android:id="@+id/favRecipesFragment"
+        android:name="hs.project.foodie.presentation.view.FavRecipesFragment"
+        android:label="즐겨찾기"
+        tools:layout="@layout/fragment_fav_recipes" />
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="hs.project.foodie.presentation.view.FoodJokeFragment"
+        android:label="조크!"
+        tools:layout="@layout/fragment_food_joke" />
+</navigation>

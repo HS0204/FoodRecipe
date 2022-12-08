@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/HS/FoodRecipe/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/HS/FoodRecipe/app/src/main/res/layout/fragment_fav_recipes.xml" value="0.2427536231884058" />
+        <entry key="..\:/HS/FoodRecipe/app/src/main/res/layout/fragment_food_joke.xml" value="0.2427536231884058" />
+        <entry key="..\:/HS/FoodRecipe/app/src/main/res/layout/fragment_recipes.xml" value="0.2427536231884058" />
+        <entry key="..\:/HS/FoodRecipe/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>
